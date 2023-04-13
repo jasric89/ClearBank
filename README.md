@@ -11,7 +11,7 @@
 ## Usage
 
 ```sh
-Please see Project Doccumentation for instructions. 
+To build this project please clone the repo. Once the repo has been cloned. Login to Azure with Az Login using Azure Cli and then run createenvironment.sh Please make sure the createenvironment.sh is executable you may need to run chmod +x on the file first
 ```
 
 ## Author
