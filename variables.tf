@@ -36,6 +36,18 @@ variable "tag_map" {
   description = "Map of Tag Values"
 }
 
+## AKS Settings
+
+variable "aks_name" {
+  type        = string
+  description = "AKS Name"
+}
+
+variable "aks_nodepool" {
+  type        = string
+  description = "AKS Node Pool"
+}
+
 ## Resource Lock
 
 variable "resourcelockname" {

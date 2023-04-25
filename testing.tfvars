@@ -16,6 +16,11 @@ tag_map = {
   product    = "testingproduct"
 }
 
+## AKS Settings
+
+aks_name     = "testingenvaks"
+aks_nodepool = "testnodepool"
+
 ## Resource Lock Settings
 
 resourcelockname = "TestingEnv-resourcelock"

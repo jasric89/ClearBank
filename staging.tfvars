@@ -18,6 +18,11 @@ tag_map = {
   product    = "stagingproduct"
 }
 
+## AKS Settings
+
+aks_name     = "stagingenvaks"
+aks_nodepool = "stagenodepool"
+
 ## Resource Lock Settings
 
 resourcelockname = "StagingEnv-resourcelock"

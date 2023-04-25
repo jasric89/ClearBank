@@ -18,6 +18,11 @@ tag_map = {
   product    = "productionproduct"
 }
 
+## AKS Settings
+
+aks_name     = "productionenvaks"
+aks_nodepool = "prodnodepool"
+
 ## Resource Lock Settings
 
 resourcelockname = "ProductionEnv-resourcelock"
