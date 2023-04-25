@@ -20,10 +20,6 @@ for index in ${!ResourceGroupNames[*]}; do
   echo $index
   # Delete resource group
   az group delete --name ${ResourceGroupNames[$index]}
-  # Delete storage account
-  az storage account delete --resource-group ${ResourceGroupNames[$index]} --name ${StorageAccNames[$index]}
-  # Delete blob container
-  az storage container delete --name $CONTAINER_NAME --account-name ${StorageAccNames[$index]}
 done
 # Inform the user
 echo Infrastructure deleted successfully!!
